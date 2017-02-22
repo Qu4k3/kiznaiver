@@ -2,6 +2,11 @@
 
 # Kiznaiver
 
-**Official page**
+**Check the result**
+
+http://kiznaiver.net
+
+
+Official page
 
 http://kiznaiver.jp
