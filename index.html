@@ -4,14 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>Kiznaiver</title>
-	<meta name="description" content="Kiznaiver website, check the opening" />
+	<meta name="description" content="Descripción de la página" />
+	<meta name="theme-color" content="#C3181F">
 	<link rel="shortcut icon" href="assets/img/favicon-96x96.png">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<meta name="theme-color" content="#C3181F">
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="assets/css/styles.css">
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -22,112 +19,21 @@
 	  ga('create', 'UA-83992528-1', 'auto');
 	  ga('send', 'pageview');
 
-	</script>	
-	
+	</script>
 </head>
-
-<style>
-
-	body {
-		background: url("assets/img/k1.png") no-repeat center center fixed; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	.center{
-		position: absolute;
-
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-
-		background:rgba(33,38,43,0.8);
-	}
-
-	video {		
-		max-width: 720px;
-		height: auto;
-		/*margin-top: 140px;*/
-		position: fixed;		
-		left: 50%;
-		bottom: 50%;		
-		transform: translate(-50%, 50%);
-
-		z-index: 3000;
-
-		box-shadow: -0.5px 0 5px rgba(0, 0, 0, 0.4), 0 0.5px 5px rgba(0, 0, 0, 0.4), 0.5px 0 5px rgba(0, 0, 0, 0.4), 0 -0.5px 5px rgba(0, 0, 0, 0.4);
-	}
-
-	.logo {
-		position: fixed;
-		top: 15px;
-		left: 50%;		
-		transform: translate(-50%);
-		text-align: center;
-		max-height: 120px;
-	}
-
-	@media screen and (max-width: 768px) {
-		html {
-			height: 100%
-		}
-
-		body {
-			height: 100%;
-
-			margin: 0;
-			padding: 0;
-
-			background: url("assets/img/main01.jpg") ;
-	        background-size: 100%;
-	        background-repeat: no-repeat;
-	        background-position: left top;
-	        height: 100%;
-	    }
-
-	    video {		
-			max-width: 95%;
-			height: auto;
-			margin-top: 140px;
-			position: fixed;					
-		}		
-
-	}
-
-	footer {
-		position: absolute;
-		bottom: 0;
-		text-align: center;
-		margin: 0 auto;
-		width: 100%;
-		
-		color: #FFFAFA;
-		opacity: 0.8;
-		font-size: 14px;
-		font-family: Helvetica,"Helvetica Neue",Arial, sans-serif;		
-	}
-
-}
-
-</style>
-
 <body>
-	
-	<section class="center">
 
-		<a href="http://www.kiznaiver.jp" title="official website">
-			<img class="logo img-responsive" src="assets/img/logo_in.png" alt="logo">
-		</a>
+	<a href="http://www.kiznaiver.jp" title="official website">
+		<img class="logo img-responsive" src="assets/img/logo_in.png" alt="logo">
+	</a>
+
+	<section class="center">		
 		
 		<video autoplay controls>
 			<source src="assets/video/opening.mp4" type="video/mp4">
 			<source src="" type="video/ogg">
 			Your browser does not support HTML5 video.
-		</video>
-		
+		</video>		
 
 	</section>
 
@@ -135,14 +41,13 @@
 		
 		<img src="assets/img/footer_deco.png" height="12px" width="auto" style="max-width:100%;" alt="banner">
 		
-		<section class="col-xs-12 col-md-12" style="padding: 0px 5px 2px 5px;">
-			unofficial website <img src="assets/img/favicon-32x32.png" height="24px" weight="auto"> go to <a href="http://kiznaiver.jp/" style="color: #fff; text-decoration:underline;">official site</a> for more
+		<section class="footer-content">
+			unofficial website <img src="assets/img/favicon-32x32.png" height="24px" width="auto" style="vertical-align: middle;"> go to <a href="http://kiznaiver.jp/" style="color: #fff; text-decoration:underline;">official site</a> for more
 		</section>
 		
 			
 			
 	</footer>
-
+	
 </body>
-
 </html>
