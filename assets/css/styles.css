@@ -38,7 +38,7 @@ video {
   right: 0;
   margin: auto;
 
-  z-index: 300;
+  z-index: 3;
 
   box-shadow: -0.5px 0 5px rgba(0, 0, 0, 0.4), 0 0.5px 5px rgba(0, 0, 0, 0.4), 0.5px 0 5px rgba(0, 0, 0, 0.4), 0 -0.5px 5px rgba(0, 0, 0, 0.4);
 }
@@ -68,6 +68,62 @@ footer {
 .footer-content {
   padding: 8px 15px 8px 15px;
 }
+
+.btnNav {
+  font-size:45px;
+  cursor:pointer;
+  position:absolute;
+  top: 50px;
+  left: 0px;
+  color: #fff;
+  padding: 8px 15px 10px 15px;
+
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  background-color: rgba(17, 17, 17, 0.8);
+  
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  z-index: 8;
+  transition: 0.5s;
+}
+
+
+
+.videoNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: #fff;
+}
+
+.videoNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s
+}
+
+.videoNav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .videoNav {padding-top: 15px;}
+  .videoNav a {font-size: 18px;}
+}
+
+
+
 
 @media screen and (max-width: 768px) {
   html {
