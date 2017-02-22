@@ -27,7 +27,7 @@ body {
   background:rgba(33,38,43,0.8);
 }
 
-video {   
+.main-video {  
   max-width: 720px;
   height: auto;
 
@@ -41,6 +41,19 @@ video {
   z-index: 3;
 
   box-shadow: -0.5px 0 5px rgba(0, 0, 0, 0.4), 0 0.5px 5px rgba(0, 0, 0, 0.4), 0.5px 0 5px rgba(0, 0, 0, 0.4), 0 -0.5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.nav-video{
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.nav-op {
+  transition: 0.5s;
+  opacity: 1;
 }
 
 .logo {
@@ -88,6 +101,21 @@ footer {
   transition: 0.5s;
 }
 
+.btn1 {
+  content: "&#9776;";
+  transition: 0.5s;
+}
+
+.btn2 {
+  content: "&#9932;";
+  transition: 0.5s;
+}
+
+/*
+&#9776;
+&#9886;
+&#9932;
+*/
 
 
 .videoNav {
@@ -105,7 +133,7 @@ footer {
 }
 
 .videoNav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: 25px;
     color: #fff;
@@ -143,7 +171,7 @@ footer {
     background-size: cover;
   }
 
-  video {
+  .main-video {
     max-width: 92%;  
   }   
 

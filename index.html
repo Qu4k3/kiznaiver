@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Kiznaiver</title>
-	<meta name="description" content="Descripción de la página" />
+	<title>Kiznaiver - Opening & Ending HD</title>
+	<meta name="description" content="Kiznaiver website, check the full opening and ending in HD" />
 	<meta name="theme-color" content="#C3181F">
 	<link rel="shortcut icon" href="assets/img/favicon-96x96.png">
 
@@ -29,8 +29,8 @@
 
 	<section class="center">		
 		
-		<video autoplay controls>
-			<source src="assets/video/opening.mp4" type="video/mp4">
+		<video autoplay controls class="main-video">
+			<source src="assets/video/opening_720.mp4" type="video/mp4">
 			<source src="" type="video/ogg">
 			Your browser does not support HTML5 video.
 		</video>		
@@ -48,10 +48,24 @@
 	</footer>
 
 	<div id="videoNav" class="videoNav">	  
-	  <a href="#">About</a>
-	  <a href="#">Services</a>
-	  <a href="#">Clients</a>
-	  <a href="#">Contact</a>
+	  <a href="#">
+	  	<span class="nav-op">Opening</span>
+	  	<video class="nav-video">
+				<source src="assets/video/opening_1080.mp4" type="video/mp4">
+				<source src="" type="video/ogg">
+			</video>
+	  </a>
+
+	  <hr class="nav-op">
+
+	  <a href="#">
+	  	<span class="nav-op">Ending</span>
+	  	<video class="nav-video">
+				<source src="assets/video/ending_360.mp4" type="video/mp4">
+				<source src="" type="video/ogg">
+			</video>
+	  </a>
+	  
 	</div>
 
 	<span id="btnNav" class="btnNav" onclick="toggleNav()">&#9776;</span>
